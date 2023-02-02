@@ -1,0 +1,38 @@
+K Means Asssignment
+
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+
+Data Set Information:
+
+This dataset has been obtained from UCI ML Repository.
+https://archive.ics.uci.edu/ml/datasets/Facebook+Live+Sellers+in+Thailand
+
+The ‘Facebook Live Sellers in Thailand’ is a dataset present in UCI Machine Learning Datasets. The
+data includes 7050 observations and twelve attributes. The data is about the live selling attribute on
+the Facebook platform. Each record consists of details about the time live details of the sale are
+published to Facebook and engagements in the data. The engagements are regular Facebook
+dealings such as sharing and emoji rection.
+
+Column Name 	Description
+Status ID	Id of the status
+Status Type	Media type of the post(video, photo, link, status)
+Status Published	Date and time of the status being posted
+Num_reactions	Number of reactions given to that post
+Num_comments	Number of comments on the post
+num_shares	Number of shares made for that post
+num_likes	Number of Thumbs up emojis gave to the post
+num_loves	Number of heart emojis given to the post
+num_wows	Number of wow emojis given to the post
+num_hahas	Number of haha emojis given to the post
+num_sads	Number of sad emojis given to the post
+num_angrys	Number of angry emojis given to the post
+Business Problem:
+
+Live Shopping on Facebook is an interactive way to sell items, connect straight with viewers, and
+gain likely customers, all in real-time. When you sell products through Live Shopping on Facebook,
+you are live streaming as you feature and demonstrate your products. Small vendors can now reach
+a more expansive audience and connect with many clients. You need to implement K-Means
+clustering to find intrinsic batches within the dataset that depict the same status_type behavior. The
+status_type behavior variable consists of posts of a distinct nature (video, photos, statuses, and
+links).
